@@ -1,0 +1,210 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+a {
+  font-weight: 500;
+  color: #5ac54f;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #99e65f;
+}
+
+$dot-size: 30px;
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  background: #272727;
+}
+#background-pattern {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 3;
+  width: 100vw;
+  height: 100vh;
+  // background-image: radial-gradient(#272727 1.5px, transparent 100);
+  // background: rgb(0, 0, 0);
+  background: radial-gradient(rgb(19, 19, 19, 0) 1.5px, rgb(19, 19, 19, 1) 3%);
+  background-size: $dot-size $dot-size;
+  background-position: -19px -19px;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #0098dc;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+#picture {
+  background-color: #272727;
+  // border: 1px solid #272727;
+  border-radius: 20px;
+  p {
+    font-size: 1.2em;
+    line-height: 1.5;
+    color: white;
+  }
+  h1 {
+    font-size: 2.5em;
+    line-height: 1.1;
+    color: white;
+  }
+  .cardContent {
+    width: 25vw;
+    padding: 0;
+    .imageContent {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      img {
+        width: 95%;
+      }
+      height: 80%;
+      border-bottom: #1a1a1a solid 1px;
+    }
+  }
+}
+
+$gap: 20px;
+
+.content {
+  top: calc(100px + $gap);
+  z-index: 4;
+  position: relative;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-bottom: $gap;
+
+  .cardHolder {
+    display: flex;
+    width: 90%;
+    justify-content: center;
+    row-gap: $gap;
+    column-gap: $gap;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+  }
+  $basis: 17%;
+  .card {
+    flex-basis: $basis;
+    transition: 0.2s;
+    border: 1px solid #3d3d3d;
+    background-color: #272727;
+    padding: 0;
+    min-width: 250px;
+    // height: 15vw;
+    aspect-ratio: 1/1;
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative;
+    top: 0;
+    left: 0;
+    &.twice {
+      flex-basis: calc(2.086 * $basis);
+      aspect-ratio: 2/1;
+    }
+    &.vert {
+      .imageHolder {
+        height: unset;
+      }
+    }
+    .imageHolder {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+      img {
+        width: 100%;
+        height: 100%;
+        border-radius: 8px;
+        transition: transform 0.2s;
+        object-fit: cover;
+      }
+    }
+    .cardContent {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      top: 0%;
+      z-index: 1;
+      opacity: 0;
+      p {
+        font-weight: 900;
+        font-size: 1.5em;
+      }
+    }
+    .cardContent:hover {
+      opacity: 1;
+      background: rgba(0, 0, 0, $alpha: 0.35);
+      transition: transform 0.2s;
+    }
+    &:hover {
+      transition: 0.2s;
+      transform: scale(1.03);
+      cursor: pointer;
+      .imageHolder {
+        img {
+          transform: scale(1.05);
+          transition: transform 0.2s;
+        }
+      }
+    }
+  }
+}
