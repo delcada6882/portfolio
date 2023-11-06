@@ -10,6 +10,8 @@ import {
 import FollowMouse from "./components/followMouse/followMouse";
 import Header from "./components/header/Header";
 
+import avatar from "./img/Screenshot 2023-04-25 at 6.08.58 PM.png";
+
 import sculpt01 from "./img/Sculpt.png";
 import chessImg from "./img/Chess Night V2.png";
 import toddMerch from "./img/Todd Is Merchant.png";
@@ -59,7 +61,7 @@ function App() {
       "Started trying to get better with sculpting in Blender.",
       "2023",
       "",
-      "Bust 01",
+      "General Bust",
     ],
     [
       toddMerch,
@@ -80,7 +82,7 @@ function App() {
       "I wanted to up my anatomy game.",
       "2023",
       "twice",
-      "Full body 01",
+      "Goth Girl Sculpt",
     ],
 
     [
@@ -88,7 +90,7 @@ function App() {
       "I wanted to make a review channel, so I designed a 3D caricature of me and a little set for him. I just watched Across the ",
       "2023",
       "twice",
-      "She's Scary",
+      "Magic in the Night",
     ],
     [
       adamOff,
@@ -109,7 +111,7 @@ function App() {
       "After finishing the NPR FNaF 1 collection, thought I'd get try another NPR effect with another FNaF game.",
       "2023",
       "",
-      "So Join the Animatronic Family",
+      "Oni Mask Salesman",
     ],
 
     [
@@ -124,21 +126,21 @@ function App() {
       "I wanted to make a review channel, so I designed a 3D caricature of me and a little set for him. I just watched Across the ",
       "2023",
       "twice",
-      "Floating Through Space",
+      "How's he Getting Out of this One?",
     ],
     [
       build,
       "I wanted to make a review channel, so I designed a 3D caricature of me and a little set for him. I just watched Across the ",
       "2023",
       "",
-      "Floating Through Space",
+      "New York Building",
     ],
     [
       pigeon,
       "I wanted to make a review channel, so I designed a 3D caricature of me and a little set for him. I just watched Across the ",
       "2023",
       "twice",
-      "Floating Through Space",
+      "It's Alive!",
     ],
     [
       freddySpec,
@@ -181,7 +183,7 @@ function App() {
       "After finishing the NPR FNaF 1 collection, thought I'd get try another NPR effect with another FNaF game.",
       "2023",
       "",
-      "So Join the Animatronic Family",
+      "Can't Wait to Meet You",
     ],
     [
       babyPaint,
@@ -225,14 +227,14 @@ function App() {
       "I wanted to make a review channel, so I designed a 3D caricature of me and a little set for him. I just watched Across the ",
       "2023",
       "twice",
-      "Floating Through Space",
+      "Take it Slow",
     ],
     [
       j9,
       "I wanted to make a review channel, so I designed a 3D caricature of me and a little set for him. I just watched Across the ",
       "2023",
       "",
-      "Floating Through Space",
+      "J9",
     ],
   ];
 
@@ -280,6 +282,26 @@ function App() {
               </div>
             );
           })}
+        </div>
+        <div id="about">
+          <h1>About</h1>
+          <div className="left">
+            <img src={avatar} alt="image of Adam Del Castillo-Call" />
+          </div>
+          <div className="right">
+            <p>My name is</p>
+            <h2>Adam Del Castillo-Call</h2>
+          </div>
+          <p>
+            I've been using blender since 2017. It started with Blender Guru's
+            2.78{" "}
+            <a
+              href="https://youtu.be/JYj6e-72RDs?si=q67-ITTHi62_7Zfa"
+              target="_blank"
+            >
+              donut tutorial
+            </a>
+          </p>
         </div>
       </div>
       <FollowMouse />
