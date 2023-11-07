@@ -5,17 +5,17 @@ const Header = () => {
   return (
     <div id="header">
       <div className="container">
-        <div className="left">
+        {/* <div className="left"> */}
           {/* <div className="imageContainer">
           <img src={avatar} alt="Adam Del Castillo-Call" className="avatar" />
         </div> */}
           <h1>Adam Del Castillo-Call</h1>
-        </div>
-        <div className="right">
+        {/* </div> */}
+        {/* <div className="right">
           <a href="#">Portfolio</a>
           <a href="#about">About</a>
           <a href="/contact">Contact</a>
-        </div>
+        </div> */}
       </div>
     </div>
   );

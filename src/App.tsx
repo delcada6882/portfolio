@@ -284,7 +284,7 @@ function App() {
             );
           })}
         </div>
-        <div id="about">
+        {/* <div id="about">
           <h1>About</h1>
           <div className="left">
             <img src={avatar} alt="image of Adam Del Castillo-Call" />
@@ -303,7 +303,7 @@ function App() {
               donut tutorial
             </a>
           </p>
-        </div>
+        </div> */}
       </div>
       <FollowMouse />
       <div>
