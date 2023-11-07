@@ -12,8 +12,8 @@ const Header = () => {
           <h1>Adam Del Castillo-Call</h1>
         </div>
         <div className="right">
-          <a href="/portfolio">Portfolio</a>
-          <a href="/about">About</a>
+          <a href="#">Portfolio</a>
+          <a href="#about">About</a>
           <a href="/contact">Contact</a>
         </div>
       </div>

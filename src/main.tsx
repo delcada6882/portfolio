@@ -4,7 +4,6 @@ import App from "./App.tsx";
 import "./index.scss";
 import {
   BrowserRouter,
-  Navigate,
   Route,
   // RouterProvider,
   Routes,
@@ -28,9 +27,7 @@ import {
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <BrowserRouter>
     <Routes>
-      <Route path="/portfolio" element={<App />} />
-      <Route path="/about" element={<div>Make about</div>} />
-      <Route path="/" element={<Navigate to="/portfolio" replace />} />
+      <Route path="/" element= {<App />} />
     </Routes>
   </BrowserRouter>
 );

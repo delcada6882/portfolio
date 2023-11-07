@@ -58,28 +58,28 @@ function App() {
   const portfolioArr = [
     [
       sculpt01,
-      "Started trying to get better with sculpting in Blender.",
+      "I wanted to start specialize in character creation within Blender. I finished the sculpt sometime in 2022, but decided to update it with a custom built NPR shader I made after watching Across the Spider-Verse.",
       "2023",
       "",
       "General Bust",
     ],
     [
       toddMerch,
-      "My first attempt into putting 2D drawings into 3D space.",
+      "After watching Demon Slayer, I thought about putting some of my best friend's art into 3D spaces and experimenting with lighting. This became the first of three art pieces I've done trying to attempt this 2D image in 3D look.",
       "2022",
       "twice",
       "A Merchant in the Snow",
     ],
     [
       chessImg,
-      "Developed for a cancelled game my best friend and I were making.",
+      "During a camp-out a friend and I were playing chess on a table like this near the fire when he told me he wanted to make a chess game in Unity. When I got home I got started immediately working on models and sent him this piece. The game got cancelled, but I'll always have this memory to look back on.",
       "2020",
       "twice",
       "Chess by the Fire",
     ],
     [
       sculptAnime,
-      "I wanted to up my anatomy game.",
+      "Furthering my journey into character creation, I decided to sculpt this character I found on DeviantArt by <a href='https://www.deviantart.com/atachi00/gallery' target=`_blank`>atachi00</a>. <br> You can find the reference sheet <a href='https://www.deviantart.com/atachi00/art/Character-Model-Sheet-716578884' target=`_blank`>here</a>",
       "2023",
       "twice",
       "Goth Girl Sculpt",
@@ -87,28 +87,28 @@ function App() {
 
     [
       drawingTest01,
-      "I wanted to make a review channel, so I designed a 3D caricature of me and a little set for him. I just watched Across the ",
+      "This is the second in my collection of trying to put 2D illustrations in 3D space. I'm really happy with the end result on this one specifically just because I think it maximizes the power of both mediums quite well. I found this sketch on google on a website teaching forced perspective.",
       "2023",
       "twice",
       "Magic in the Night",
     ],
     [
       adamOff,
-      "Before I put Adam in space, I did a few test renders and landed on this as the first official render for him.",
+      "My friends and I started discussing creating a review channel together, and I decided that if I was going to start a review channel then I would need a 3D avatar to represent myself. My first attempt was a horrid low poly 8-bit texture nightmare, but my second attempt lead to this so I can't really complain.",
       "2023",
       "vert",
       "Adam's First Official Render",
     ],
     [
       drawingTest02,
-      "My third attempt into putting 2D drawings into 3D space.",
+      "After the success of my second in this collection, I thought I'd try to do it again with a 3 hour time limit. I feel it could've turned out better, but I'm still really happy with the end result.",
       "2023",
       "twice",
       "He Visits in the Night",
     ],
     [
       ooo,
-      "After finishing the NPR FNaF 1 collection, thought I'd get try another NPR effect with another FNaF game.",
+      "I had the idea for a masked salesman in a hoodie from one of my dreams then had to do it justice in 3D art. This is another piece I feel would turn out better if I gave it more time, but for a rough demo scene I feel it serves its purpose.",
       "2023",
       "",
       "Oni Mask Salesman",
@@ -116,63 +116,63 @@ function App() {
 
     [
       adamInBar,
-      "I wanted to make a review channel, so I designed a 3D caricature of me and a little set for him. I just watched Across the ",
+      "After finishing the 3D avatar of me, I decided to make him a little set in which he would share all of his thoughts. I'm still below the age of 21, so I've never been in a bar but I've always loved the aesthetics of one. Plus, it fit with the brown color scheme I was going for.",
       "2023",
       "twice",
       "Floating Through Space",
     ],
     [
       link,
-      "I wanted to make a review channel, so I designed a 3D caricature of me and a little set for him. I just watched Across the ",
+      "I wanted to test out that shader applied to 'General Bust' on a model that lends itself better for something like that. So I grabbed this model of Link (from Legend of Zelda BOTW) from sketchfab and recolored every texture top fit my favorite color palette from lospec and put him in a water world.",
       "2023",
       "twice",
       "How's he Getting Out of this One?",
     ],
     [
       build,
-      "I wanted to make a review channel, so I designed a 3D caricature of me and a little set for him. I just watched Across the ",
-      "2023",
+      "I saw an Ian Hubert tutorial on how easy it was to make buildings off of images and decided to give it a shot.",
+      "2021",
       "",
       "New York Building",
     ],
     [
       pigeon,
-      "I wanted to make a review channel, so I designed a 3D caricature of me and a little set for him. I just watched Across the ",
+      "I wanted to experiment more with non photo-realistic renders after the render of Link was finished, so I made a model of a pigeon head then messed with robot eyes and glare effects.",
       "2023",
       "twice",
       "It's Alive!",
     ],
     [
       freddySpec,
-      "After watching Across the Spider-Verse, I wanted to experiment more with NPR type effects. Model not made by me.",
+      "This model of Freddy was made by Spinofan, Elscamon, TheBoofster, YinyangGio1987. <br>After getting a little obsessed with my little shader, I decided to make special renders of Freddy Fazbear from FNaF 1. ",
       "2023",
       "",
       "NPR Freddy",
     ],
     [
       bonnieSpec,
-      "Thought I'd continue the set after finishing Freddy.",
+      "This model of Bonnie was made by Spinofan, Elscamon, TheBoofster, YinyangGio1987. <br>After I finished the render of Freddy, I realized that I couldn't call it quits until I finished Bonnie.",
       "2023",
       "",
       "NPR Bonnie",
     ],
     [
       chicaSpec,
-      "Thought I'd continue the set after finishing Freddy.",
+      "This model of Chica was made by Spinofan, Elscamon, TheBoofster, YinyangGio1987. <br>I decided to make Chica and Bonnie almost mirror each other in their images to reflect their roles in the game on your right door and left door respectively.",
       "2023",
       "",
       "NPR Chica",
     ],
     [
       foxySpec,
-      "Thought I'd continue the set after finishing Freddy.",
+      "This model of Foxy was made by Spinofan, Elscamon, TheBoofster, YinyangGio1987. <br>Due to Foxy having his own separate area, I decided to give him different lighting and make his render darker.",
       "2023",
       "",
       "NPR Foxy",
     ],
     [
       goldFreddySpec,
-      "Thought I'd continue the set after finishing Freddy.",
+      "This model of Golden Freddy was made by Spinofan, Elscamon, TheBoofster, YinyangGio1987. <br>When I finished the render of Foxy, it took me a couple months to realize that I still had to do Golden Freddy.",
       "2023",
       "",
       "NPR Yellow Bear",
@@ -180,21 +180,21 @@ function App() {
 
     [
       funFreddyPaint,
-      "After finishing the NPR FNaF 1 collection, thought I'd get try another NPR effect with another FNaF game.",
+      "This model of Funtime Freddy was made by jorjimodels, GamesProduction, ItzMattq, HFO-yt, PatrykPL24. <br>I decided to keep this trend of rendering characters from this game franchise with non photo-realistic effects going after finishing the FNaF 1 collection. Creating the painterly-like effect was quite easy due to the amount of people who have tried to do so. This one was done procedurely, but I still felt it was lacking the human intuition and touch in so I decided to do a different method after this collection.",
       "2023",
       "",
       "Can't Wait to Meet You",
     ],
     [
       babyPaint,
-      "After finishing the NPR FNaF 1 collection, thought I'd get try another NPR effect with another FNaF game.",
+      "This model of Circus Baby was made by jorjimodels, GamesProduction, ItzMattq, HFO-yt, PatrykPL24. <br>It was getting close to Halloween when I made this render and the next so I tried to up the creep factor.",
       "2023",
       "",
       "So Join the Animatronic Family",
     ],
     [
       funFoxPaint,
-      "Decided to make Funtime Foxy much more creepy.",
+      "This model of Funtime Foxy was made by jorjimodels, GamesProduction, ItzMattq, HFO-yt, PatrykPL24. <br>I saw a tutorial on mapping blood onto your pre-textured models years ago and it never really left my mind. So I decided to try it out for this render I made on Halloween.",
       "2023",
       "",
       "We Open Real Soon",
@@ -202,7 +202,7 @@ function App() {
 
     [
       albumCover,
-      "I wrote a song and wanted a very specific album cover.",
+      "I wrote a song called ACI and have had this very specific image in my mind for an album cover for years. Only in June did I realize that I have improved enough as an artist to make it.",
       "2023",
       "",
       "ACI Album cover",
@@ -224,14 +224,14 @@ function App() {
     ],
     [
       roadSign,
-      "I wanted to make a review channel, so I designed a 3D caricature of me and a little set for him. I just watched Across the ",
-      "2023",
+      "After watching Ian Huberts tutorial on easy warbling in 3D, I decided to make this sign.",
+      "2020",
       "twice",
       "Take it Slow",
     ],
     [
       j9,
-      "I wanted to make a review channel, so I designed a 3D caricature of me and a little set for him. I just watched Across the ",
+      "I made this model for a Star Wars roleplay a group of friends and I were gonna do. I box modelled everything in 2020 and used a render of this character with photo based materials as my character profile. I decided to go and try that painterly look on him with custom made normal maps to recreate the artist's stroke in 3D. Beyond that I also added some dots and lines as you see in Spider-Verse because I was and still am obsessed with the art for that movie.",
       "2023",
       "",
       "J9",
@@ -255,7 +255,8 @@ function App() {
       <div id="background-pattern"></div>
 
       <div className="content">
-        <div className="cardHolder">
+        <h1>Portfolio</h1>
+        <div id="cardHolder">
           {portfolioArr.map((item, index) => {
             return (
               <div

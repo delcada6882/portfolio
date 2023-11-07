@@ -70,19 +70,6 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #0098dc;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
-}
-
 #picture {
   background-color: #272727;
   // border: 1px solid #272727;
@@ -117,7 +104,7 @@ button:focus-visible {
 $gap: 20px;
 
 .content {
-  top: calc(100px + $gap);
+  top: calc(100px);
   z-index: 4;
   position: relative;
   width: 100vw;
@@ -128,7 +115,7 @@ $gap: 20px;
   flex-wrap: wrap;
   padding-bottom: $gap;
 
-  .cardHolder {
+  #cardHolder {
     display: flex;
     width: 90%;
     justify-content: center;
