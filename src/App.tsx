@@ -10,7 +10,7 @@ import {
 import FollowMouse from "./components/followMouse/followMouse";
 import Header from "./components/header/Header";
 
-import avatar from "./img/Screenshot 2023-04-25 at 6.08.58 PM.png";
+// import avatar from "./img/Screenshot 2023-04-25 at 6.08.58 PM.png";
 
 import sculpt01 from "./img/Sculpt.png";
 import chessImg from "./img/Chess Night V2.png";
